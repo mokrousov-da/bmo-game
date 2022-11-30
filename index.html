@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <h3 class="above-header">Let's play a compelling game</h3>
+            <a href="#instructions" class="btn">Enter</a>
+
+            <h1 class="big-header">Guess</h1>
+            <p class="underheader">the number</p>
+        </div>
+    </section>
+    <section class="game">
+        <div class="container">
+            <div class="instruction-block" id="instructions">
+                <img src="https://cdn-icons-png.flaticon.com/512/7855/7855607.png" alt="" class="sign-icon">
+                <div class="instructions-wording">
+                    <h5 class="instruction-header">The rules are simple:</h5>
+                    <div class="instruction-wording-wrapper">
+                        <p class="instruction-figure">1</p>
+                        <p class="instruction-text">Enter the number from 1 to 20 into the field</p>
+                    </div>
+                    <div class="instruction-wording-wrapper">
+                        <p class="instruction-figure">2</p>
+                        <p class="instruction-text">Push <span>"check"</span> button to check your number </p>
+                    </div>
+                    <div class="instruction-wording-wrapper">
+                        <p class="instruction-figure">3</p>
+                        <p class="instruction-text">If you are wrong, follow the prompts to finally get the correct figure</p>
+                    </div>
+                </div>
+            </div>
+            <div class="game-wrapper">
+                <div class="game-block">
+                    <h4 class="game-block-header">Try to <span class="pixel-word">guess</span> my <span class="italic-word">number</span> </h4>
+                    <input type="text" class="input-field">
+                    <p class="under-input-header">enter your number here</p>
+                    <a href="#" class="btn game-btn"> Check</a>
+                </div>
+                <div class="image-block">
+                    <img src="https://freepngimg.com/thumb/adventure_time/127975-adventure-bmo-time-download-hd.png" alt="" class="middle-image">
+                </div>
+                <div class="tries-block">
+                    <h4 class="tries-header">Your tries</h4>
+                    <ul class="tries-list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
